@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch",
+      "program": "${workspaceFolder}/.vscode/run.js",
+      "preLaunchTask": "build",
+      "internalConsoleOptions": "neverOpen",
+      "env": { "PLAYDATE_OUTPUT" : "${config:playdate.output}" }
+    }
+  ]
+}
