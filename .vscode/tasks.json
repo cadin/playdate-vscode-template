@@ -4,7 +4,7 @@
     {
       "label": "build",
       "type": "shell",
-      "command": "node gfxtool\/gfxtool.js SourceAssets\/ Source\/; pdc source ${config:playdate.output}",
+      "command": "mkdir -p ${config:playdate.output}; pdc source ${config:playdate.output}",
       "group": {
         "kind": "build",
         "isDefault": true
