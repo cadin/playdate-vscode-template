@@ -3,6 +3,7 @@ Build and run projects in the Playdate simulator with a key shortcut.
 
 ## Requirements
 - [VS Code](https://code.visualstudio.com)
+- [Node](https://nodejs.org/)
 - [Playdate SDK](https://play.date/dev/)
 
 ## Get Started
@@ -16,6 +17,3 @@ You can generate your own separate repositories from this template with the same
 ## Output
 Build files get output to `bin/Output.pdx`.  
 Change this by editing the `playdate.output` property in `.vscode/settings.json`.
-
-## Windows
-This template is set up for Mac. You may be able to get it working on on Windows by editing `.vscode/run.js` to point to the proper simulator location. 
