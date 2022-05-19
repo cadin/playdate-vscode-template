@@ -4,7 +4,7 @@
     {
       "label": "build",
       "type": "shell",
-      "command": "mkdir -p ${config:playdate.output}; pdc source ${config:playdate.output}",
+      "command": "make",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -19,7 +19,7 @@
         "revealProblems": "onProblem"
       },
       "problemMatcher": {
-        "owner": "lua",
+        "owner": "make",
         "pattern": {
           "regexp": "^(warning|error):\\s+(.*):(\\d+):\\s+(.*)$",
           "severity": 1,

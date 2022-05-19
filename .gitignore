@@ -1,2 +1,5 @@
 .DS_Store
-bin/
+build
+*.pdx
+Source/*
+!Source/pdxinfo

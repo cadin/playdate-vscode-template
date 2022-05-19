@@ -1,3 +1,7 @@
 {
-  "playdate.output": "bin/Output.pdx"
+  "playdate.output": "HelloWorld.pdx",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.formatOnSave": true
 }

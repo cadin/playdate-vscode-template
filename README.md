@@ -3,8 +3,11 @@ Build and run projects in the Playdate simulator with a key shortcut.
 
 ## Requirements
 - [VS Code](https://code.visualstudio.com)
-- [Node](https://nodejs.org/)
+- [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [CMake Extension](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 - [Playdate SDK](https://play.date/dev/)
+- CMake (`brew install cmake`)
+
 
 ## Get Started
 **This is a template repo.**  
@@ -15,5 +18,9 @@ You can generate your own separate repositories from this template with the same
 3. Assign a keyboard shortcut to the Run Without Debugging option to build and run with a keypress.
 
 ## Output
-Build files get output to `bin/Output.pdx`.  
-Change this by editing the `playdate.output` property in `.vscode/settings.json`.
+Build files get output to `HelloWorld.pdx`. There are some additional build files, like CMake logs, in the `build` directory.
+
+## Creating Your Own Project
+1. Do a global project replace for "HelloWorld", replacing it with your own program name.
+2. Modify or add the appropriate information in `Source/pdxinfo`.
+3. Write the app code.
