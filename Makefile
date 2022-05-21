@@ -43,3 +43,5 @@ ULIBS =
 
 include $(SDK)/C_API/buildsupport/common.mk
 
+run: pdc
+	open -a $(SDK)/bin/Playdate\ Simulator.app $(PRODUCT)
