@@ -24,3 +24,7 @@ Build files get output to `HelloWorld.pdx`. There are some additional build file
 1. Do a global project replace for "HelloWorld", replacing it with your own program name.
 2. Modify or add the appropriate information in `Source/pdxinfo`.
 3. Write the app code.
+
+## Automatic Build
+1. Install watchman (`brew install watchman`)
+2. `make watch`
