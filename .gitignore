@@ -3,3 +3,4 @@ build
 *.pdx
 Source/*
 !Source/pdxinfo
+.temp

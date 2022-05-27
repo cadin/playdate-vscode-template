@@ -25,6 +25,11 @@ Build files get output to `HelloWorld.pdx`. There are some additional build file
 2. Modify or add the appropriate information in `Source/pdxinfo`.
 3. Write the app code.
 
-## Automatic Build
+## Automatic Test and Build
 1. Install watchman (`brew install watchman`)
 2. `make watch`
+
+## Writing Tests
+Due to limitations with the current VSCode setup, we must open the tests source files in a new VSCode window to take advantage of autocomplete etc.
+1. code __tests__
+2. Write tests - watcher will automatically run them when files change.

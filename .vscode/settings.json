@@ -1,7 +1,12 @@
 {
-  "playdate.output": "HelloWorld.pdx",
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.h": "c",
+  },
+  "playdate.output": "HelloWorld.pdx",
+  "playdate.sdkRoot": "~/Developer/PlaydateSDK",
+  "cmocka.installLocation": "/opt/homebrew/Cellar/cmocka/1.1.5"
 }

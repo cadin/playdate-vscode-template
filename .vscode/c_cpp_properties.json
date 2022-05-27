@@ -3,15 +3,18 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${config:playdate.sdkRoot}/C_API",
+                "${config:cmocka.installLocation}/include"
             ],
-            "defines": [],
+            "defines": [
+                "TARGET_EXTENSION"
+            ],
             "macFrameworkPath": [],
             "compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "macos-gcc-arm",
-            "configurationProvider": "ms-vscode.cmake-tools"
+            "intelliSenseMode": "macos-gcc-arm"
         }
     ],
     "version": 4
