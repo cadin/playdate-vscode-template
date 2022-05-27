@@ -7,6 +7,7 @@ Build and run projects in the Playdate simulator with a key shortcut.
 - [CMake Extension](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 - [Playdate SDK](https://play.date/dev/)
 - CMake (`brew install cmake`)
+- cmocka (`brew install cmocka`) - for testing
 
 
 ## Get Started
@@ -29,7 +30,6 @@ Build files get output to `HelloWorld.pdx`. There are some additional build file
 1. Install watchman (`brew install watchman`)
 2. `make watch`
 
-## Writing Tests
-Due to limitations with the current VSCode setup, we must open the tests source files in a new VSCode window to take advantage of autocomplete etc.
-1. code __tests__
-2. Write tests - watcher will automatically run them when files change.
+## Writing and Running Tests
+1. Write tests under `lib/__tests__`- watcher will automatically run them when files change.
+2. `make test` to compile and run only tests.
