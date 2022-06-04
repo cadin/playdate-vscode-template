@@ -72,3 +72,8 @@ PlaydateAPI __mock_PlaydateAPI = {
     .system = &__mock_playdate_system,
     .graphics = &__mock_playdate_graphics,
 };
+
+void _update_position_velocity_(void)
+{
+    function_called();
+}
