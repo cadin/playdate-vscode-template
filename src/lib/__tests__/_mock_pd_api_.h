@@ -3,6 +3,8 @@
 // mocked API
 PlaydateAPI __mock_PlaydateAPI;
 
+#define PD_API (&__mock_PlaydateAPI)
+
 // Additional types spec
 // no complete defintion is provided by the API, strangely
 // Hence, this is not the real data structure but a mock

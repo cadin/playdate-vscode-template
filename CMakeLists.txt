@@ -31,9 +31,9 @@ set(PLAYDATE_GAME_DEVICE hello_world_DEVICE)
 project(${PLAYDATE_GAME_NAME} C ASM)
 
 if (TOOLCHAIN STREQUAL "armgcc")
-	add_executable(${PLAYDATE_GAME_DEVICE} ${SDK}/C_API/buildsupport/setup.c src/main.c src/lib/__tests__/_mocks_.h)
+	add_executable(${PLAYDATE_GAME_DEVICE} ${SDK}/C_API/buildsupport/setup.c src/main.c src/lib/__tests__/_mock_pd_api_.h)
 else()
-	add_library(${PLAYDATE_GAME_NAME} SHARED src/main.c src/lib/__tests__/_mocks_.h)
+	add_library(${PLAYDATE_GAME_NAME} SHARED src/main.c src/lib/__tests__/_mock_pd_api_.h)
 endif()
 
 include(${SDK}/C_API/buildsupport/playdate_game.cmake)

@@ -4,5 +4,6 @@
 #include "pd_api.h"
 
 int _event_handler_(PlaydateAPI *pd, PDSystemEvent event, uint32_t arg);
+int __test_event_handler(void);
 
 #endif

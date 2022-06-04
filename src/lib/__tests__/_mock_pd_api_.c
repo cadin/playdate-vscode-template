@@ -1,4 +1,4 @@
-#include "_mocks_.h"
+#include "_mock_pd_api_.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <signal.h>
@@ -72,8 +72,3 @@ PlaydateAPI __mock_PlaydateAPI = {
     .system = &__mock_playdate_system,
     .graphics = &__mock_playdate_graphics,
 };
-
-void _update_position_velocity_(void)
-{
-    function_called();
-}
