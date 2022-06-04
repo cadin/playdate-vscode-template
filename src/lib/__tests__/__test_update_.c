@@ -4,11 +4,11 @@
 #include <stdint.h>
 #include <cmocka.h>
 
-#include "__tests__/_mock_pd_api_.h"
+#include "_mock_pd_api_.h"
 
-#include "_app_const_.h"
-#include "_update_.h"
-#include "_state_.h"
+#include "../_app_const_.h"
+#include "../_update_.h"
+#include "../_state_.h"
 
 void _update_position_velocity_(void)
 {
