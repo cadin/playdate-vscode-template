@@ -33,7 +33,7 @@
     {
       "label" : "incrementBuild",
       "type" : "shell",
-      "command" : "./scripts/buildnum.sh",
+      "command" : "./.vscode/buildnum.sh",
       "presentation": {
         "echo": true,
         "reveal": "silent",
