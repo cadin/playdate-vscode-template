@@ -4,4 +4,4 @@ description=This is a Playdate game.
 bundleID=com.domain.GameName
 version=1.0
 imagePath=SystemAssets/
-buildNumber=13
+buildNumber=1
