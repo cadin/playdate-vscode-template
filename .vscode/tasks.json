@@ -4,7 +4,7 @@
     {
       "label": "build",
       "type": "shell",
-      "command": "mkdir -p ${config:playdate.output}; pdc source ${config:playdate.output}",
+      "command": "mkdir -p ${config:playdate.output}; pdc -k source ${config:playdate.output} ",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -15,7 +15,7 @@
         "focus": false,
         "panel": "shared",
         "showReuseMessage": false,
-        "clear": true,
+        "clear": false,
         "revealProblems": "onProblem"
       },
       "problemMatcher": {
@@ -27,7 +27,20 @@
           "line": 3,
           "message": 4
         }
-      }
-    }
+      },
+      "dependsOn": ["incrementBuild"]
+    },
+    {
+      "label" : "incrementBuild",
+      "type" : "shell",
+      "command" : "./scripts/buildnum.sh",
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "clear": true,
+      },
+    },
+    
   ]
 }
