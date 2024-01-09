@@ -1,3 +1,8 @@
+### ⚠️ Do you need this?
+There are now Playdate extensions available in the VS Code marketplace that might better suit your needs. I recommend trying those first and coming back to this if you need something not available through the extensions.
+
+---
+
 # Playdate VS Code Template (Mac)
 Build and run projects in the Playdate simulator with a key shortcut.
 
